@@ -1,3 +1,11 @@
+let gif;
+
+function preload (){
+gif = loadImage ('assets/finalGIF.gif');
+
+}
+
+
 function setup() {// runs one time
   createCanvas(windowWidth, windowHeight);
     background('#fffec8');
