@@ -17,8 +17,8 @@ function draw() {//runs in a loop
   background ('#fffec8');
   var num = 10;
   var sideLen = windowWidth/num;
-  for (var y = 0; y < windowHeight; y = y + sideLen) {//loop to create a grid in the y direction
-    for (var x = 0; x < windowWidth; x = x + sideLen) {
+  for (var y = 0; y < 2 * windowHeight; y = y + sideLen) {//loop to create a grid in the y direction
+    for (var x = 0; x < 2 * windowWidth; x = x + sideLen) {
       quad (x,y,x + sideLen, y, x +sideLen, y + sideLen,x, y + sideLen);
       
        }
