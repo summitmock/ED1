@@ -14,7 +14,7 @@ function setup() {// runs one time
 }
 
 function draw() {//runs in a loop
-  
+  background ('#fffec8');
   var num = 10;
   var sideLen = windowWidth/num;
   for (var y = 0; y < windowHeight; y = y + sideLen) {//loop to create a grid in the y direction
